@@ -1,0 +1,16 @@
+{
+  "name": "loungelab.github.io",
+  "version": "1.0.0",
+  "description": "Landing page for Lounge LAB",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loungelab/loungelab.github.io.git"
+  },
+  "author": "Daeyeol Ryu, Junho Im",
+  "homepage": "https://loungelab.io"
+}
