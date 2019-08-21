@@ -53,11 +53,45 @@
 /* Intro */
 
 	#intro {
-		background: url('images/overlay.png'), url('../../images/loungeintro.png');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background: none;
+
+		.content {
+			opacity: 0.7;
+		}
+
+		@include breakpoint('<=medium') {
+			background: url('images/overlay.png'), url('../../images/loungeintro.png');
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, bottom center;
+			background-repeat: repeat, no-repeat;
+		}
+	}
+
+	#loungeXVideo {
+		position: fixed;
+		min-width: 100%;
+		min-height: 100%;
+		top: 0;
+		left: 0;
+		z-index: -1;
+
+		@include breakpoint('<=medium') {
+			display: none;
+		}
+	}
+
+	#videoOverlay {
+		position: fixed;
+		min-width: 100%;
+		min-height: 100%;
+		top: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.6);
+
+		@include breakpoint('<=medium') {
+			display: none;
+		}
 	}
 
 /* One */
