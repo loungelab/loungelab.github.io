@@ -103,6 +103,19 @@
 		background-position: top left, center center;
 	}
 
+	.tag-cloud {
+		width: 100%;
+		overflow: scroll;
+	}
+
+	.tag {
+		background: _palette(dark, bg);
+		padding: 0.3em;
+		border-radius: 0.3em;
+		color: _palette(dark, fg);
+		font-size: 0.8em;
+	}
+
 /* Two */
 
 	#two {
