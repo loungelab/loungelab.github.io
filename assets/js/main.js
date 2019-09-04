@@ -147,17 +147,6 @@
 							leave:		function() { $(this).addClass('inactive'); }
 						});
 
-				// Contact.
-					$('#contact')
-						.scrollex({
-							top:		'50%',
-							delay:		50,
-							initialize:	function() { $(this).addClass('inactive'); },
-							terminate:	function() { $(this).removeClass('inactive'); },
-							enter:		function() { $(this).removeClass('inactive'); },
-							leave:		function() { $(this).addClass('inactive'); }
-						});
-
 			};
 
 			var off = function() {
@@ -171,10 +160,6 @@
 						.unscrollex();
 
 					$('.main.style2')
-						.unscrollex();
-
-				// Contact.
-					$('#contact')
 						.unscrollex();
 
 			};
