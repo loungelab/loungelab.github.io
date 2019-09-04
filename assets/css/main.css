@@ -1665,7 +1665,7 @@ body {
 
 /* Contacts */
 #contacts {
-  background: url("images/overlay.png"), url("https://maps.googleapis.com/maps/api/staticmap?autoscale=2&size=640x360&maptype=roadmap&key=AIzaSyC1mt-CyorW4WsQ-pPkDwW3NIAkbx94OBo&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C37.499778,127.030222");
+  background: url("images/overlay.png"), url("../../images/map.png");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }
