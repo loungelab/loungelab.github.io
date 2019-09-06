@@ -1347,6 +1347,10 @@ table {
     cursor: default; }
     #header h1 a {
       font-size: 1.25em; }
+    #header h1 .logo {
+      width: auto;
+      height: 100%;
+      padding: 0.4em 0; }
   #header nav {
     position: absolute;
     right: 0.5em;
@@ -1600,7 +1604,7 @@ body {
 #intro {
   background: none; }
   #intro .content {
-    opacity: 0.7; }
+    opacity: 0.6; }
   @media screen and (max-width: 1000px) {
     #intro {
       background: url("images/overlay.png"), url("../../images/loungeintro.png");
